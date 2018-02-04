@@ -18,7 +18,7 @@ namespace WorldStreaming
             sectors.Add(sector);
         }
 
-        void Awake()
+        public virtual void Awake()
         {
             instance = this;
         }
